@@ -1,0 +1,262 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	font-family: sans-serif;
+	min-height: 300vh;
+}
+
+nav-bar
+{
+	position:sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar
+{
+	background-image:linear-gradient(to right,#30336b,#be2edd);
+	padding: 10 !important;
+}
+
+.navbar-brand
+{
+	font-family: 'Russo One', sans-serif;
+	height: 40px;
+	padding-left: 30px;
+	color: #ffffff !important;
+
+}
+
+.navbar-nav li
+{
+	padding: 0 20px;
+	font-size: 20px;
+}
+
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-weight: 600;
+	float: center;
+	text-align: center;
+	font-family: 'Noto Serif SC', serif;
+}
+
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+/*scroll bar*/
+
+::-webkit-scrollbar
+{
+	width: 0 !important 
+}
+
+/*-p--------------*/
+
+.h1
+{
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 80px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+
+
+
+/*
+<!-- 	---------------banner section---------------- -->*/
+
+#banner
+{
+background-image:linear-gradient(to right,#30336b,#be2edd);
+color: #fff;
+padding-top: 5%;
+}
+
+.play-btn{
+
+	width: 45px;
+	margin: 20px;
+	color: #fff;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.p
+{
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+#banner a
+{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Do Hyeon', sans-serif;
+}
+
+.img1
+{
+	transform: translate(-2%,1%);
+	width: 700px;
+	margin: 30px;
+
+}
+
+.bottom-img
+{
+	width: 100%;
+}
+
+#services
+{
+	padding: 80px 0;
+	transform: translateY(-40%);
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+.services-img
+{
+	width: 80px;
+	margin-top: 20px;
+	transform: translateY(-30px);
+
+}
+
+.col-md-4
+{
+	padding: 10px;
+
+}
+
+.tittle
+{
+	transform: translateY(-180%);
+	font-size: 50px;
+
+}
+
+.btn {
+
+	transform: translateX(550%);
+	background-image:linear-gradient(to right,#81ecec,#a29bfe);
+	border-radius: 2px;
+	box-shadow: 0 0 8px #a29bfe, 0 0 12px #a29bfe;
+}
+
+
+/*-------------about us -----------------*/
+
+#about-us
+{
+	background: #f8f9fa;
+	padding-bottom: 220px;
+	padding-top: 50px;
+	transform: translateY(-20%);
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.ul1
+{
+	transform: translateY(60%);
+
+}
+
+.title
+{
+	font-size: 40px;
+}
+
+.title2
+{
+	font-size: 30px;
+	transform: translateY(250%);
+}
+
+.col-md-6
+{
+	transform: translateX(-10%);
+}
+
+.img-fluid
+{
+	transform: translate(20%,20%);
+}
+
+/*------------testimonial----------*/
+
+
+#testimonials .title
+{
+	transform: translateY(-100%);
+	font-size: 40px;
+}
+
+#testimonials
+{
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.testimonials
+{
+	border-left: 4px solid #7b1798;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.testimonials img
+{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 0 10px;
+}
+
+.user-details
+{
+	display: inline-block;
+	font-size: 12px;
+}
+
+.container
+{
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+/*----------social media section--------*/
+
+#social-media
+{
+	background: #f8f9fa;
+	padding: 100px 0 ;
+}
+
+#social-media
+{
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.social-icons img
+{
+	width: 30px;
+	transition: 0.5;
+}
+
+.social-icons a:hover img
+{
+	transform: translateY(-5px);
+}
